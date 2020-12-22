@@ -15,6 +15,11 @@ namespace BookLibraryApp
         public Form1()
         {
             InitializeComponent();
+
+            var databaseOperation = new DatabaseOperations();
+            databaseOperation.LogIn("","");
+
+
         }
     }
 }
