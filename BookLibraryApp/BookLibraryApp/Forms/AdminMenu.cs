@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BookLibraryApp
+namespace BookLibraryApp.Forms
 {
-    public partial class Form1 : Form
+    public partial class AdminMenu : Form
     {
-        public Form1()
+        public AdminMenu()
         {
             InitializeComponent();
-
-            var databaseOperation = new DatabaseOperations();
-            databaseOperation.LogIn("","");
-
-
         }
     }
 }
